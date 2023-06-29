@@ -1,0 +1,32 @@
+ class Solution
+{
+     public:
+     int findSum(int A[], int N)
+    {
+        int l=A[0];
+        int k=A[0];
+      
+           for(int i=1;i<N;i++)
+           {
+              if(k>A[i])
+              {}
+              else
+              k=A[i];
+           }
+        
+        
+          for(int i=1;i<N;i++)
+         {
+            if(l<A[i])
+            {}
+            else
+            l=A[i];
+         }
+    
+       return l+k;
+    
+    }
+  
+    
+
+};
